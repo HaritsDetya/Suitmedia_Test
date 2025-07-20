@@ -22,7 +22,10 @@
             android:id="@+id/profile_photo"
             android:layout_width="115dp"
             android:layout_height="115dp"
-            android:src="@drawable/profile_photo"
+            android:src="@drawable/ic_default_profile_pic"
+            android:tint="@color/white"
+            android:background="@drawable/profile_photo"
+            android:padding="30dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -37,6 +40,7 @@
             app:boxStrokeWidthFocused="0dp"
             android:background="@drawable/layout_input"
             android:layout_marginTop="60dp"
+            android:paddingVertical="3dp"
             app:layout_constraintTop_toBottomOf="@id/profile_photo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
@@ -59,6 +63,7 @@
             app:boxStrokeWidthFocused="0dp"
             android:background="@drawable/layout_input"
             android:layout_marginTop="20dp"
+            android:paddingVertical="3dp"
             app:layout_constraintTop_toBottomOf="@id/layout_name_input"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
